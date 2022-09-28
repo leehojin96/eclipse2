@@ -1,5 +1,4 @@
-package week04.day2.ArrayListEx;
-
+package day15_ArrayListEx;
 public class OList2 {
 	
 	private Object[] nums;

@@ -1,4 +1,4 @@
-package week04.day2.ArrayListEx;
+package day15_ArrayListEx;
 
 public class GList2<T extends Score> {  // Score와 Score상속받은것까지
 	

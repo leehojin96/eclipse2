@@ -1,6 +1,6 @@
-package day15_ArrayListEx;
+package day16.MyArrays;
 
-public class Score {
+public class Score implements MyComparable{
 
 	String name;
 	int kor;
@@ -48,6 +48,12 @@ public class Score {
 	@Override
 	public String toString() {
 		return "Score [name=" + name + ", kor=" + kor + ", eng=" + eng + ", total=" + total + "]";
+	}
+	
+	@Override
+	public int compareTo(Object obj) {
+		Score s = (Score)obj;
+		return this.kor-s.getKor();
 	}
 	
 	

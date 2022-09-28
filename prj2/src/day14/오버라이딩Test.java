@@ -38,7 +38,10 @@ public class 오버라이딩Test {
 
 		ch.display();
 
-		Parent pc = new Child();
+		//※포인트
+		Parent pc = new Child(); 
+		//부모클래스 타입 pc에  자식 인스턴스 생성.
+		//오버라이딩 메소드 실행 가능
 
 		pc.display(); // Child cp = new Parent();
 		
