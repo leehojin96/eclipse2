@@ -1,4 +1,4 @@
-package c;
+package c_e;
 
 
 public class Car {
@@ -25,9 +25,7 @@ public class Car {
 		
 	}
 	
-	
-	
-	
+	//예시 생성자
 	public Car(char tgn,int ticCount,String carNumber, int inputTime, int outputTime,int state) {
 		
 		this.carNumber = carNumber;
@@ -42,6 +40,7 @@ public class Car {
 	public String ticketGet(){
 		return ticNo;
 	}
+	
 	public void outputTimeSet(int outputTime) {
 	this.outputTime = outputTime;
 	this.state = 0;

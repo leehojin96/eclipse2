@@ -7,9 +7,10 @@ public class TgMain_Ex2 {
 
 	public static void main(String[] args) {
 		
-		ArrayList<Car> cars = new ArrayList<>(); 
+		ArrayList<Car> cars = new ArrayList<>();
+		ArrayList<Tg> tgs = new ArrayList<>(); 
+		
 		Scanner sc = new Scanner(System.in);
-		int ticNo = 01; //톨카운트넘버
 
 		loop1 :while (true) {
 			System.out.println("입력하세요 (1.입장 2.퇴장 3.종료) : ");
